@@ -1,0 +1,15 @@
+# Visual Studio, .NET, C#
+.idea/
+.vs/
+*.csproj
+*.sln
+*.user
+
+# VS Code
+.vscode/*
+*.code-workspace
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets

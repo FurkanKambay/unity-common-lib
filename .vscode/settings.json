@@ -1,0 +1,27 @@
+{
+    "explorer.excludeGitIgnore": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*": "${capture}.meta"
+    },
+    "files.exclude": {
+        "**/*.meta": false,
+    },
+    "files.readonlyInclude": {
+        "**/*.meta": true,
+    },
+    "conventionalCommitBuilder.template": "<type><scope>: <description>",
+    "conventionalCommitBuilder.autoCommit": true,
+    "conventionalCommitBuilder.showCommit": true,
+    "conventionalCommitBuilder.customTypes": [],
+    "conventionalCommitBuilder.scopes": [],
+    "cSpell.files": [
+        "**.cs"
+    ],
+    "cSpell.dictionaries": [
+        "game-development",
+        "gaming-terms",
+        "unity"
+    ]
+}

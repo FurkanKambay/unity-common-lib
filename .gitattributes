@@ -1,0 +1,25 @@
+# Define macros (only works in top-level gitattributes files)
+[attr]lfs                           -text filter=lfs diff=lfs merge=lfs
+[attr]unity-json                    eol=lf linguist-language=json
+
+*                                   text=auto eol=lf
+*.cs                                eol=lf diff=csharp
+*.md                                eol=lf diff=markdown
+
+# Unity shader files
+*.cginc                             eol=lf
+*.compute                           eol=lf linguist-language=hlsl
+*.hlsl                              eol=lf
+*.raytrace                          eol=lf linguist-language=hlsl
+*.shader                            eol=lf
+
+# Exclude from GitHub stats and diffs: third-party plugins, packages lock file
+*.g.cs                              linguist-generated
+
+# Unity JSON files
+*.asmdef                            unity-json
+*.asmref                            unity-json
+*.index                             unity-json
+*.inputactions                      unity-json
+*.shadergraph                       unity-json
+*.shadersubgraph                    unity-json
