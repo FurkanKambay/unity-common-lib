@@ -32,7 +32,7 @@ namespace FK.Common.Editor
         public static MainToolbarButton GetSceneButton(string text, string scenePath)
         {
             string sceneName = Path.GetFileName(scenePath);
-            var content = new MainToolbarContent(text, $"Open \"{sceneName}.unity\"");
+            var content = new MainToolbarContent(text, $"Open \"{sceneName}\"");
             return new MainToolbarButton(content, () => TryOpenScene(scenePath));
         }
 
